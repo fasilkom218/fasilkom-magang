@@ -33,6 +33,7 @@ const store = configureStore({
     nilai: nilaiSlice,
     pengajuan: pengajuanSlice,
   },
+  devTools: false,
 });
 
 export default store;
